@@ -1,0 +1,89 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2,
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .card {
+    align-items: flex-start;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .container {
+    max-width: 768px;
+  }
+  .card-title {
+    font-size: 1.7rem;
+    font-weight: 1;
+    position: absolute;
+    top: 26%;
+    left: 38%;
+  }
+
+  .card-span {
+    font-weight: 1;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    font-size: 0.8rem;
+  }
+  .card-header > .container {
+    padding: 0 0 10px 0;
+    font-size: 0.8rem;
+  }
+
+  .name {
+    display: none;
+  }
+  #about {
+    width: 100%;
+  }
+  .container-job-info {
+    margin: 0 50px;
+    column-count: 2;
+    column-gap: 20px;
+  }
+  .grid-item {
+    break-inside: avoid;
+  }
+
+  .container-certi {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+    grid-template-areas: "img-cer grid-baby";
+    row-gap: 30px;
+  }
+  @media (min-width: 768px) {
+    .baby-1 {
+      border-right: 1px solid #d6c08d;
+    }
+    .baby-2 {
+      border-left: 1px solid #d6c08d;
+    }
+    .baby-3 {
+      border-top: 1px solid #d6c08d;
+    }
+  }
+  .gr-item > img {
+    width: 100%;
+    height: auto;
+  }
+  .grid-project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin: 0;
+  }
+
+  .container.container-foot ul {
+    max-width: 768px;
+    margin: auto;
+    width: 70%;
+  }
+}
